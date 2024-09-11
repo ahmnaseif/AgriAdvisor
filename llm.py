@@ -18,7 +18,7 @@ def get_llm_response(question):
 
     # Load the LLM model using CTransformers
         model = CTransformers(
-        model='meta-llama/Meta-Llama-3.1-8B', 
+        model='model/llama-2-7b-chat.ggmlv3.q2_K.bin', 
         model_type='llama'
         )
         print("Question: ")
