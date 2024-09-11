@@ -18,19 +18,17 @@ def get_llm_response(question):
 
     # Load the LLM model using CTransformers
         model = CTransformers(
-        model='model/llama-2-7b-chat.ggmlv3.q2_K.bin', # Local path to the GGML model
+        model='meta-llama/Meta-Llama-3.1-8B', 
         model_type='llama'
         )
         print("Question: ")
         print(question)
-    # Generate a response from the model
+
         answer = model(question) # CTransformers handles tokenization internally
 
-    # Fetch weather data if location is provided
         return answer
         
 
-# Function to translate text to Sinhala
 def translate_to_sinhala(text):
     # Tokenize the input text
     print("Text")
