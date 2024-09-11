@@ -1,0 +1,5 @@
+Deployed Apps: 
+  1. Advisor Model: https://agriadvisor-czu22vcwqcwhynac46y6qy.streamlit.app/
+  2. Predictor Model: https://agriadvisor-vhs4scsnx6tahqk4hmwldf.streamlit.app/
+
+Model - model/llama-2-7b-chat.ggmlv3.q2_K.bin is not uploaded yet to github repoitory so the app is not running. Since it's large it's still uploading. 
